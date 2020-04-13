@@ -1,9 +1,8 @@
 class CreateStudents < ActiveRecord::Migration[5.2]
   def change
     create_table :students do |t|
-        t.string :name
-        t.boolean :vegetable
-        t.integer :pizza_id
+        t.string :first_name
+        t.string :last_name
     end
   end
 end
